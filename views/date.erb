@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<% require 'date' %>
+	</head>
+	<body>
+
+	
+	<% time = Time.now %>
+	<% date = Date.today.strftime("%A, %B %d, %Y") %>
+
+	<p><%= "The date is " + date %></p>
+	<p><%= "The time is " + time.to_s %></p>
+	
+
+	</body>
+
+
+</html>
